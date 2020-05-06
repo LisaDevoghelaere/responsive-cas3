@@ -20,9 +20,14 @@ h1
 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
+    text-align: center;
     color : white;
     font-size: 3.4rem;
-    margin-top: 0;
+    margin: 0px;
+}
+.title
+{
+    padding: 4rem;
 }
 h2
 {
@@ -43,21 +48,39 @@ ul
     list-style: none;
     padding: 0px;
 }
+li
+{
+    padding : 1rem;
+}
 header a, header p
 {
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     color: white;
+    text-align: center;
+}
+.cube a
+{
+    text-decoration : none;
 }
 header
 {
     background-image: linear-gradient(#1C4689, #103167);
 }
+#logo
+{
+    width : 80px;
+    height : 50px;
+    background-image: url(media/logo-expox.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding : 1rem; 
+}
 .cercle
 {
     border-radius:50%;
-    width:60px;
-    height:60px;
+    width:3.75rem;
+    height:3.75rem;
     border:none;
     box-shadow: 1px 1px 10px #707070;
 }
@@ -65,8 +88,8 @@ header
 {
     
     border-radius:50%;
-    width:60px;
-    height:60px;
+    width:3.75rem;
+    height:3.75rem;
     border:none;
     background-image: url(media/icon-7.png);
     background-repeat: no-repeat;
@@ -103,4 +126,46 @@ header
     background-image: url(media/icon-3.png);
     background-repeat: no-repeat;
     background-position: center; 
+}
+.what-we-do
+{
+    text-align: center;
+    width : 50%;
+    margin: auto;
+}
+.flex-cube
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:85%;
+    margin : auto;
+}
+.cube
+{
+    width : 23.75rem;
+    height : 21.87rem;
+    box-sizing: border-box;
+    padding : 2rem;
+    border:none;
+}
+.alignement
+    {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+@media screen and (min-width:1140px)
+{
+    
+
+}
+@media screen and (min-width:415px) and (max-width:1140px)
+{
+
+}
+@media screen and (min-width:320px) and (max-width:414px)
+{
+
 }
