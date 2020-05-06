@@ -49,3 +49,58 @@ header a, header p
     font-family: 'Rubik', sans-serif;
     color: white;
 }
+header
+{
+    background-image: linear-gradient(#1C4689, #103167);
+}
+.cercle
+{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:none;
+    box-shadow: 1px 1px 10px #707070;
+}
+.cercle-orange
+{
+    
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:none;
+    background-image: url(media/icon-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color : #FF8400;
+    
+}
+#icon-rocket
+{
+    background-image: url(media/icon-9.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#idea1
+{
+    background-image: url(media/icon-11.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#idea2
+{
+    background-image: url(media/icon-5.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#loupe1
+{
+    background-image: url(media/icon-1.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#megaphone
+{
+    background-image: url(media/icon-3.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
