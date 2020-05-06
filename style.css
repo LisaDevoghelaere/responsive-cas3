@@ -2,3 +2,50 @@ body
 {
     margin : 0 auto;
 }
+.material-icons 
+{
+    font-family: 'Material Icons';
+    font-size: 24px; /* Preferred icon size*/
+    color: white;
+}
+p
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6B6D73;
+    line-height: 30px;
+}
+h1
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color : white;
+    font-size: 3.4rem;
+    margin-top: 0;
+}
+h2
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color : #2E2E2E;
+    font-size: 2.2rem;
+}
+h3
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color : #2E2E2E;
+    font-size: 1.5rem;
+}
+ul
+{
+    list-style: none;
+    padding: 0px;
+}
+header a, header p
+{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
